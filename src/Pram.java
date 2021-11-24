@@ -16,6 +16,8 @@ public class Pram {
         };
         System.out.println(findInt(f2, 3, 4, Part));
 
+
+
         //Ссылка ст. метод
         exp obj = new exp();
         Func f3 = obj::exp;
@@ -30,6 +32,8 @@ public class Pram {
         System.out.println(findInt(f5, 0, 1, Part));
 
     }
+
+
 
     public static double findInt(Func func, double left, double right, double Part) {
         double S = 0;
